@@ -1,5 +1,5 @@
 This Terraform configuration uses the Docker provider to automate the deployment of an Nginx web server inside a container.
-First, it pulls the latest Nginx image from Docker Hub and keeps it locally.
+git First, it pulls the latest Nginx image from Docker Hub and keeps it locally.
   Then, it creates a container named nginx-webapp,
    mapping port 8080 on the host machine to port 80 inside the container 
    so the application can be accessed through a browser    at http://localhost:8080.
